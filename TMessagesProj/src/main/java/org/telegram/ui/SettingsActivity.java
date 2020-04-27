@@ -697,7 +697,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
         titleTextView.setGravity(Gravity.LEFT);
         titleTextView.setTextColor(Theme.getColor(Theme.key_actionBarDefaultTitle));
         titleTextView.setTypeface(AndroidUtilities.getTypeface("fonts/rmedium.ttf"));
-        titleTextView.setText(BuildVars.DEBUG_VERSION ? "Telegram Beta" : LocaleController.getString("AppName", R.string.AppName));
+        titleTextView.setText(BuildVars.DEBUG_VERSION ? "NebulaChat Beta" : LocaleController.getString("AppName", R.string.AppName));
         titleTextView.setAlpha(0.0f);
         frameLayout.addView(titleTextView, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, LayoutHelper.WRAP_CONTENT, Gravity.LEFT | Gravity.TOP));
 
