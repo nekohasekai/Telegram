@@ -109,7 +109,8 @@ include $(MY_LOCAL_PATH)/libtgvoip3/Android.mk
 LOCAL_PATH := $(MY_LOCAL_PATH) # restore local path after include
 include $(CLEAR_VARS)
 
-LOCAL_CPPFLAGS := -Wall -std=c++14 -DANDROID -frtti -DHAVE_PTHREAD -finline-functions -ffast-math -Os
+#LOCAL_CPPFLAGS := -Wall -std=c++11 -DANDROID -frtti -DHAVE_PTHREAD -finline-functions -ffast-math -O0
+LOCAL_CPPFLAGS := -Wall -std=c++14 -DANDROID -frtti -DHAVE_PTHREAD -finline-functions -ffast-math -Os -DPATCH_BY_NEBULACHAT -DDEBUG_VERSION
 
 LOCAL_C_INCLUDES += ./jni/boringssl/include/
 LOCAL_ARM_MODE := arm

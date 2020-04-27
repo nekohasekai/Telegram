@@ -42,9 +42,9 @@ dependencies {
 android {
     compileSdkVersion 29
     buildToolsVersion '29.0.3'
-    ndkVersion "20.0.5594570"
+    ndkVersion "21.0.6113669"
 
-    defaultConfig.applicationId = "org.telegram.messenger"
+    defaultConfig.applicationId = "org.chatengine.messenger"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
@@ -90,7 +90,7 @@ android {
             debuggable true
             jniDebuggable true
             signingConfig signingConfigs.debug
-            applicationIdSuffix ".beta"
+            //applicationIdSuffix ".beta"
             minifyEnabled true
             multiDexEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -134,7 +134,7 @@ android {
             debuggable false
             jniDebuggable false
             signingConfig signingConfigs.debug
-            applicationIdSuffix ".beta"
+            //applicationIdSuffix ".beta"
             minifyEnabled true
             multiDexEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -152,6 +152,8 @@ android {
     }
 
     sourceSets.debug {
+        jni.srcDirs = []
+        jniLibs.srcDir 'src/main/libs'
         manifest.srcFile 'config/debug/AndroidManifest.xml'
     }
 
@@ -283,6 +285,12 @@ android {
             ext {
                 abiVersionCode = 9
             }
+        }
+    }
+
+    tasks.all { task ->
+        if (((task.name.endsWith('Ndk') || task.name.startsWith('generateJsonModel') || task.name.startsWith('externalNativeBuild'))) && !task.name.contains("Release")) {
+            task.enabled = false
         }
     }
 
