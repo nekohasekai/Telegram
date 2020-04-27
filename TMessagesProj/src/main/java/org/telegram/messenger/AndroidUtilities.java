@@ -2182,9 +2182,7 @@ public class AndroidUtilities {
     }*/
 
     public static void startAppCenter(Activity context) {
-        if (BuildConfig.DEBUG) {
-            return;
-        }
+        if (BuildVars.APPCENTER_HASH.isEmpty()) return;
         try {
             if (BuildVars.DEBUG_VERSION) {
                 Distribute.setEnabledForDebuggableBuild(true);
@@ -2200,6 +2198,7 @@ public class AndroidUtilities {
 
     private static long lastUpdateCheckTime;
     public static void checkForUpdates() {
+        if (BuildVars.APPCENTER_HASH.isEmpty()) return;
         try {
             if (BuildVars.DEBUG_VERSION) {
                 if (SystemClock.elapsedRealtime() - lastUpdateCheckTime < 60 * 60 * 1000) {
@@ -2212,7 +2211,6 @@ public class AndroidUtilities {
             FileLog.e(e);
         }
     }
-
     public static void addToClipboard(CharSequence str) {
         try {
             android.content.ClipboardManager clipboard = (android.content.ClipboardManager) ApplicationLoader.applicationContext.getSystemService(Context.CLIPBOARD_SERVICE);
