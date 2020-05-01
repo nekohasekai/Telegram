@@ -195,13 +195,10 @@ android {
         }
     }
 
-    sourceSets.main {
-        jni.srcDirs = []
-        jniLibs.srcDir 'src/main/libs'
-    }
-
     sourceSets.debug {
         manifest.srcFile 'config/debug/AndroidManifest_SDK23.xml'
+        jni.srcDirs = []
+        jniLibs.srcDir 'src/main/libs'
     }
 
     /*sourceSets.debugAsan {
@@ -222,14 +219,6 @@ android {
     }
 
     flavorDimensions "minApi"
-
-    tasks.all { task ->
-
-        if (((task.name.endsWith('Ndk') || task.name.startsWith('generateJsonModel') || task.name.startsWith('externalNativeBuild')))) {
-            task.enabled = false
-        }
-
-    }
 
     defaultConfig.versionCode = 3
 
