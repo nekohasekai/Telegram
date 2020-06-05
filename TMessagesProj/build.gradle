@@ -210,8 +210,6 @@ android {
 
     flavorDimensions "minApi"
 
-    defaultConfig.versionCode = 3
-
     productFlavors {
         armv7 {
             ndk {
@@ -324,8 +322,6 @@ android {
         }
     }
 
-    defaultConfig.versionCode = 1985
-
     def tgVoipDexFileName = "libtgvoip.dex"
     def tgVoipDexClasses = ["AudioRecordJNI", "AudioTrackJNI", "NativeTgVoipDelegate", "NativeTgVoipInstance", "TgVoipNativeLoader", "Resampler", "VLog"]
     def tgVoipDexClassesPath = "org/telegram/messenger/voip"
@@ -393,6 +389,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 28
         versionName "6.2.0"
+        versionCode 4
 
         vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
 
