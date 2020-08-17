@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="AppName">텔레그램</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppNameBeta">NebulaChat Beta</string>
     <string name="LanguageName">한국어</string>
     <string name="English">영어</string>
     <string name="LanguageNameInEnglish">한국어</string>
@@ -37,7 +37,7 @@
     <string name="DidNotGetTheCode">코드를 받지 못하셨나요?</string>
     <string name="DidNotGetTheCodeSms">코드를 SMS로 보내기</string>
     <string name="CancelAccountReset">계정 초기화 취소</string>
-    <string name="CancelAccountResetInfo2">Somebody with access to **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS. You can also cancel this by *changing your phone number*.</string>
+    <string name="CancelAccountResetInfo2">Somebody with access to **%1$s** has requested to delete your NebulaChat account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS. You can also cancel this by *changing your phone number*.</string>
     <string name="ResetAccount">계정 초기화</string>
     <string name="ResetAccountInfo">계정 **%1$s**이 비밀번호로 보호되어 있기에, 보안 목적으로 1주일 뒤에 이 계정을 삭제할 것입니다.\n\n이 작업은 언제든지 취소하실 수 있습니다.</string>
     <string name="ResetAccountStatus">아래 시간이 지나야 계정을 초기화하실 수 있습니다:</string>
@@ -45,7 +45,7 @@
     <string name="ResetAccountButton">초기화</string>
     <string name="CancelLinkExpired">링크가 폐기되거나 만료되었습니다.</string>
     <string name="CancelLinkSuccess">%1$s 계정 탈퇴 작업이 취소되었습니다. 이제 이 창을 닫으셔도 좋습니다.</string>
-    <string name="OtherLoginCode">Your login code is **%1$s**. Enter it in the Telegram app where you are trying to log in.\n\nDo not give this code to anyone.</string>
+    <string name="OtherLoginCode">Your login code is **%1$s**. Enter it in the NebulaChat app where you are trying to log in.\n\nDo not give this code to anyone.</string>
     <!--signup view-->
     <string name="YourName">성명</string>
     <string name="RegisterText2">이름을 입력하고 프로필 사진을 추가하세요.</string>
@@ -1864,7 +1864,7 @@
     <string name="AuthAnotherClientInfo2">QR 코드를 받으려면 텔레그램 데스크탑을 실행하세요.</string>
     <string name="AuthAnotherClientInfo3">회원님의 계정을 연결하려면 QR 코드를 스캔하세요.</string>
     <string name="AuthAnotherClientUrl">이 코드는 누군가가 회원님의 텔레그램 계정에 로그인할 수 있도록 하는 데 사용될 수 있습니다.\n\n텔레그램 로그인을 인증하려면, 설정 &gt; 디바이스 &gt; QR 코드 스캔으로 이동하여 코드를 스캔해 주세요.</string>
-    <string name="QRCodePermissionNoCamera">Telegram needs access to your camera so that you can scan QR codes.</string>
+    <string name="QRCodePermissionNoCamera">NebulaChat needs access to your camera so that you can scan QR codes.</string>
     <string name="SetProfilePhoto">Set Profile Photo</string>
     <!--cache view-->
     <string name="LocalDatabase">로컬 데이터베이스</string>
@@ -2984,7 +2984,7 @@
     <string name="VoipRinging">전화 거는 중</string>
     <string name="VoipBusy">통화 중</string>
     <string name="VoipInCallBranding">텔레그램 전화</string>
-    <string name="VoipInVideoCallBranding">Telegram Video Call</string>
+    <string name="VoipInVideoCallBranding">NebulaChat Video Call</string>
     <string name="VoipOutgoingCall">텔레그램으로 통화 중</string>
     <string name="VoipEndCall">통화 종료</string>
     <string name="VoipOngoingAlertTitle">이미 통화하고 계십니다</string>
@@ -3025,14 +3025,14 @@
     <string name="VoipPeerOutdated">**%1$s** 님의 텔레그램은 전화를 지원하지 않습니다. 이 사용자의 앱을 업데이트한 뒤에 전화할 수 있습니다.</string>
     <string name="VoipRateCallAlert">텔레그램 전화의 품질을 평가해주세요.</string>
     <string name="VoipNeedMicPermission">전화를 걸려면 텔레그램에게 마이크 접근 권한을 부여하셔야 합니다.</string>
-    <string name="VoipNeedMicCameraPermission">Telegram needs access to your microphone and camera so that you can make video calls.</string>
+    <string name="VoipNeedMicCameraPermission">NebulaChat needs access to your microphone and camera so that you can make video calls.</string>
     <string name="VoipFeedbackCommentHint">코멘트를 입력하실 수 있습니다</string>
     <string name="CallBack">답신 전화</string>
     <string name="CallAgain">다시 전화 걸기</string>
     <string name="DefaultRingtone">기본값</string>
     <string name="ConfirmDeleteCallLog">이 항목을 통화 기록에서 삭제하시겠습니까?</string>
     <string name="CallViaTelegram">텔레그램 전화</string>
-    <string name="VideoCallViaTelegram">Telegram Video Call</string>
+    <string name="VideoCallViaTelegram">NebulaChat Video Call</string>
     <string name="VoipAudioRoutingEarpiece">이어폰</string>
     <string name="VoipAudioRoutingSpeaker">스피커</string>
     <string name="VoipAudioRoutingBluetooth">블루투스</string>
@@ -3055,7 +3055,7 @@
     <string name="QuickReplyCustom">맞춤 메시지...</string>
     <string name="AllowCustomQuickReply">맞춤 허용</string>
     <string name="VoipInCallBrandingWithName">%s님에게 텔레그램으로 전화</string>
-    <string name="VoipInVideoCallBrandingWithName">Telegram Video Call to %s</string>
+    <string name="VoipInVideoCallBrandingWithName">NebulaChat Video Call to %s</string>
     <string name="VoipErrorUnknown">지금은 텔레그램으로 전화하실 수 없습니다.</string>
     <string name="RateCallEcho">제 목소리가 울렸습니다</string>
     <string name="RateCallNoise">잡음이 들렸습니다</string>

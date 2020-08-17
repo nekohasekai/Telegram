@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="AppName">تيليجرام</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppNameBeta">NebulaChat Beta</string>
     <string name="LanguageName">العربية</string>
     <string name="English">الإنجليزية</string>
     <string name="LanguageNameInEnglish">Arabic</string>
@@ -37,7 +37,7 @@
     <string name="DidNotGetTheCode">لم يصلك الرمز؟</string>
     <string name="DidNotGetTheCodeSms">إرسال الرمز برسالة SMS قصيرة</string>
     <string name="CancelAccountReset">إلغاء إعادة تعيين الحساب</string>
-    <string name="CancelAccountResetInfo2">Somebody with access to **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS. You can also cancel this by *changing your phone number*.</string>
+    <string name="CancelAccountResetInfo2">Somebody with access to **%1$s** has requested to delete your NebulaChat account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS. You can also cancel this by *changing your phone number*.</string>
     <string name="ResetAccount">إعادة تعيين الحساب</string>
     <string name="ResetAccountInfo">نظرًا لأن الحساب **%1$s** نشطٌ ومحميٌ بكلمة مرور؛ سنقوم بحذفه خلال أسبوع لدواعٍ أمنية.\n\nيمْكنك إلغاء هذه العملية في أي وقت.</string>
     <string name="ResetAccountStatus">ستتمكن من إعادة تعيين حسابك خلال:</string>

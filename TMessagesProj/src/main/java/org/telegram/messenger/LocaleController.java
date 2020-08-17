@@ -261,6 +261,18 @@ public class LocaleController {
         languagesDict.put(localeInfo.shortName, localeInfo);
 
         localeInfo = new LocaleInfo();
+        localeInfo.name = "简体中文 (@zh_CN 版)";
+        localeInfo.nameEnglish = "Chinese (Simplified, @zh_CN)";
+        localeInfo.shortName = "classic_zh_cn";
+        localeInfo.pathToFile = null;
+        localeInfo.pluralLangCode = "zh_cn";
+        localeInfo.builtIn = true;
+        languages.add(localeInfo);
+        languagesDict.put(localeInfo.shortName, localeInfo);
+        languagesDict.put("zh_cn", localeInfo);
+        languagesDict.put("zh_sg", localeInfo);
+
+        localeInfo = new LocaleInfo();
         localeInfo.name = "Italiano";
         localeInfo.nameEnglish = "Italian";
         localeInfo.shortName = localeInfo.pluralLangCode = "it";
