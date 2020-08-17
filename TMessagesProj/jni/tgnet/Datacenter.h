@@ -80,7 +80,11 @@ private:
     TLObject *getCurrentHandshakeRequest(bool media);
     ByteArray *getAuthKey(ConnectionType connectionType, bool perm, int64_t *authKeyId, int32_t allowPendingKey);
 
+#ifdef PATCH_BY_NEBULACHAT
+    const int32_t *defaultPorts = new int32_t[4] {-1, 12443, 15222, -1};
+#else
     const int32_t *defaultPorts = new int32_t[4] {-1, 443, 5222, -1};
+#endif
 
     int32_t instanceNum;
     uint32_t datacenterId;

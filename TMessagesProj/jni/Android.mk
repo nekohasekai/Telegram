@@ -113,7 +113,7 @@ include $(PREBUILT_STATIC_LIBRARY)
 include ./jni/TgCalls.mk
 
 include $(CLEAR_VARS)
-LOCAL_CPPFLAGS := -Wall -std=c++14 -DANDROID -frtti -DHAVE_PTHREAD -finline-functions -ffast-math -Os
+LOCAL_CPPFLAGS := -Wall -std=c++14 -DANDROID -frtti -DHAVE_PTHREAD -finline-functions -ffast-math -Os -DPATCH_BY_NEBULACHAT -DDEBUG_VERSION
 
 LOCAL_C_INCLUDES += ./jni/boringssl/include/
 LOCAL_ARM_MODE := arm
