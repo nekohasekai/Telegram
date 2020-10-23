@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="AppName">텔레그램</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppNameBeta">NebulaChat Beta</string>
     <string name="LanguageName">한국어</string>
     <string name="English">영어</string>
     <string name="LanguageNameInEnglish">한국어</string>
@@ -3067,7 +3067,7 @@
     <string name="PermissionDrawAboveOtherAppsGroupCall">오버레이 모드는 푸시-투-토크시, 텔레그램을 나가더라도 누가 대화를 하는지 알 수 있게 됩니다.</string>
     <string name="PermissionOpenSettings">설정</string>
     <string name="PermissionXiaomiLockscreen">통화가 제대로 실행되도록 텔레그램이 잠금 화면에 나타나는 것을 허용해 주세요.</string>
-    <string name="PermissionBackgroundLocation">To share your live location in this chat, Telegram needs access to your location all the time, including while the app is in the background.\n\nWe will access your location only for the duration you choose, and you can stop sharing it any time. We won\'t use your location for any purpose other than sharing it in this chat.</string>
+    <string name="PermissionBackgroundLocation">To share your live location in this chat, NebulaChat needs access to your location all the time, including while the app is in the background.\n\nWe will access your location only for the duration you choose, and you can stop sharing it any time. We won\'t use your location for any purpose other than sharing it in this chat.</string>
     <string name="PermissionDrawAboveOtherAppsTitle">화면-속-화면</string>
     <string name="PermissionDrawAboveOtherAppsGroupCallTitle">음성 대화 오버레이</string>
     <!--charts-->
